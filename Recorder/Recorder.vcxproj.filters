@@ -18,6 +18,15 @@
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RecorderExport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CRecorderMgr\CRecorderMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CRecorder\CRecorder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Recorder.cpp">
@@ -28,5 +37,22 @@
     <ClInclude Include="Recorder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="RecorderExport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RecorderDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRecorderMgr\CRecorderMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRecorder\CRecorder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RecorderExport.def">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

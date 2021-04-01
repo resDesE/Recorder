@@ -1,0 +1,14 @@
+LIBRARY "Recorder"
+
+EXPORTS
+
+OnInit @1
+OnFini @2
+OnCreateRecorder @3
+OnDestroyRecorder @4
+OnStartRecord @5
+OnStopRecord @6
+OnPauseRecord @7
+OnResumeRecord @8
+OnGetRecordTimeLen @9
+
